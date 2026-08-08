@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 環境変数・データ
+.env
+data/followers.db
+
+# IDE
+.idea/
+.vscode/

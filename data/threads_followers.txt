@@ -1,0 +1,6 @@
+# Threads フォロワーのユーザー名を1行1件で記載してください（@は不要）
+# 公式 Threads API にはフォロワー一覧取得機能がないため、手動で登録します
+#
+# 例:
+# example_user
+# another_follower
