@@ -1,26 +1,16 @@
 ---
-description: 「統括に残して」→ journal/ へ書く。URLをユーザーに聞かない
+description: 「統括に残して」＝journal/ または status/ にその場で書く
 alwaysApply: true
 ---
 
-# 統括記録
+# 統括に残して
 
-ユーザーが「統括に残して」「統括へ」「journalに残して」と言ったら、`journal/` に追記する。
+いまのリポ内だけで書いて完了。URLを聞かない。別スレへ貼らせない。
 
-## 書き先（このリポ内）
+## 書き先
 
-1. `journal/now.md`
-2. `journal/decisions.md`
-3. `journal/log/YYYY-MM.md`（なければ作る）
+1. `journal/` があればそこ（`now.md` / `decisions.md` / `log/YYYY-MM.md`）
+2. なければ `status/CURRENT.md`（`status/` 運用中なら）
+3. どちらもなければ `journal/` を作る
 
-## 禁止
-
-- 別リポURLをユーザーに尋ねる・貼らせる
-- 「cursor-journal が見えない」で止まる（この `journal/` に書けばよい）
-- 全文チャットのダンプ
-
-## 手順
-
-1. 上記へ要約を追記する
-2. commit / push する
-3. 書いたファイル名だけ報告する
+commit / push。報告は一言。
