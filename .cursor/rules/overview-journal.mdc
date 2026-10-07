@@ -1,0 +1,26 @@
+---
+description: 「統括に残して」→ journal/ へ書く。URLをユーザーに聞かない
+alwaysApply: true
+---
+
+# 統括記録
+
+ユーザーが「統括に残して」「統括へ」「journalに残して」と言ったら、`journal/` に追記する。
+
+## 書き先（このリポ内）
+
+1. `journal/now.md`
+2. `journal/decisions.md`
+3. `journal/log/YYYY-MM.md`（なければ作る）
+
+## 禁止
+
+- 別リポURLをユーザーに尋ねる・貼らせる
+- 「cursor-journal が見えない」で止まる（この `journal/` に書けばよい）
+- 全文チャットのダンプ
+
+## 手順
+
+1. 上記へ要約を追記する
+2. commit / push する
+3. 書いたファイル名だけ報告する
