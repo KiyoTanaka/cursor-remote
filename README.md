@@ -100,7 +100,7 @@ python -m src.main set-birthday threads username 12 25
 
 | ワークフロー | スケジュール | 内容 |
 |-------------|-------------|------|
-| `birthday-notify.yml` | 毎日 0:00 JST | 今日誕生日のフォロワーを通知（無料） |
+| `birthday-notify.yml` | **一時停止中**（手動実行のみ） | 今日誕生日のフォロワーを通知（無料） |
 | `sync-followers.yml` | 毎月1日 9:00 JST | フォロワー情報を同期（X API 利用・約540円/3600人） |
 
 ### コスト目安（X API・Owned Read）

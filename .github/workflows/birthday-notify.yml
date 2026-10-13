@@ -1,9 +1,11 @@
 name: 誕生日通知（毎日0時 JST）
 
 on:
-  schedule:
-    # 毎日 0:00 JST = 15:00 UTC（前日）
-    - cron: "0 15 * * *"
+  # 一時停止中: 誕生日通知の運用を見合わせているため、定期実行は無効化。
+  # 再開する場合は schedule を有効化してください。
+  # schedule:
+  #   # 毎日 0:00 JST = 15:00 UTC（前日）
+  #   - cron: "0 15 * * *"
   workflow_dispatch:
 
 jobs:
