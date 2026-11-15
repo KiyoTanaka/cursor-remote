@@ -1,9 +1,7 @@
 name: 誕生日通知（毎日0時 JST）
 
+# 企画中断中: 自動実行は停止。再開時は schedule を戻すか Actions から手動実行。
 on:
-  schedule:
-    # 毎日 0:00 JST = 15:00 UTC（前日）
-    - cron: "0 15 * * *"
   workflow_dispatch:
 
 jobs:

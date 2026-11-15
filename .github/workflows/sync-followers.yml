@@ -1,9 +1,7 @@
 name: フォロワー同期（毎月1日 9:00 JST）
 
+# 企画中断中: 自動実行は停止。再開時は schedule を戻すか Actions から手動実行。
 on:
-  schedule:
-    # 毎月1日 9:00 JST = 毎月1日 0:00 UTC
-    - cron: "0 0 1 * *"
   workflow_dispatch:
 
 jobs:
